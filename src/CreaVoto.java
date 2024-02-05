@@ -1,7 +1,9 @@
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.IOException;
 import java.sql.Array;
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -145,6 +147,8 @@ public class CreaVoto extends JDialog implements ActionListener {
             System.out.println("NOME: " + nome);
             System.out.println("COGNOME: " + cognome);
 
+
+
             try {
                 int idStudente = StudenteDAO.readByNomeCognome(nome,cognome);
                 Materia materia = (Materia)MateriaDAO.readIdByNomeMateria(cmbMateria.getSelectedItem().toString());
@@ -157,6 +161,7 @@ public class CreaVoto extends JDialog implements ActionListener {
                                 materia
                         )
                 );
+                this.dispose();
             } catch (SQLException ex) {
                 throw new RuntimeException(ex);
             }

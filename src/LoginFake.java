@@ -85,10 +85,7 @@ public class LoginFake extends JFrame implements ActionListener {
             new MenuFrame(d, this);
         }
         else{
-            txtNome.setBackground(Color.RED);
-            txtCognome.setBackground(Color.RED);
-            txtNome.setForeground(Color.WHITE);
-            txtCognome.setForeground(Color.WHITE);
+            JOptionPane.showMessageDialog(this, "Incorrect credentials");
         }
     }
 
