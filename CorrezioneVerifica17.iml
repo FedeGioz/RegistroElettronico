@@ -7,7 +7,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="commons-io-2.15.0" level="project" />
     <orderEntry type="library" name="jar_files" level="project" />
+    <orderEntry type="library" name="commons-io-2.15.01" level="project" />
+    <orderEntry type="library" name="kernel-7.2.4" level="project" />
+    <orderEntry type="library" name="apache.logging.log4j.core" level="project" />
+    <orderEntry type="library" name="apache.poi" level="project" />
   </component>
 </module>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="commons-io-2.15.01">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/Frutto2/commons-io-2.15.0.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Frutto2/sqlite-jdbc-3.44.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

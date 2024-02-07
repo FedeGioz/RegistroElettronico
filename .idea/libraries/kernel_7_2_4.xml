@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="kernel-7.2.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/Frutto/jar/kernel-7.2.4.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Frutto/jar/slf4j-api-2.0.9.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Frutto/jar/slf4j-simple-2.0.9.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Frutto/jar/sqlite-jdbc-3.43.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
